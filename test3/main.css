@@ -1,0 +1,119 @@
+                                body {
+                                padding: 0px;
+                                margin: 0px;
+                                min-width: 300px;
+                            }
+                            
+                            #root {
+                                width: 100%;
+                                min-height: 200px;
+                            }
+                            
+                            #left-web {
+                                width: 9%;
+                                background-color: blue;
+                                float: left;
+                                min-height: 950px;
+                            }
+                            
+                            #right-web {
+                                width: 9%;
+                                background-color: blue;
+                                float: right;
+                                min-height: 950px;
+                            }
+                            /* #header {
+    width: 100%;
+    display: block;
+    background-color: blue;
+} */
+                            
+                            #container {
+                                width: 82%;
+                                float: left;
+                                background-color: green;
+                                min-height: 800px;
+                            }
+                            
+                            #header {
+                                width: 100%;
+                                background-color: white;
+                                min-height: 100px;
+                            }
+                            
+                            #menu {
+                                width: 100%;
+                                background-color: rgb(15, 148, 15);
+                            }
+                            
+                            #center {
+                                width: 100%;
+                                background-color: white;
+                            }
+                            
+                            #h1 {
+                                padding-top: 20px;
+                            }
+                            
+                            #menu ul a {
+                                font-size: 20px;
+                                color: white;
+                                border-right: 0.5px solid white;
+                                letter-spacing: 3px;
+                                font-family: 'Times New Roman', Times, serif;
+                            }
+                            
+                            #menu ul #activiti {
+                                border-left: 0.5px solid white;
+                            }
+                            
+                            #menu ul a:hover {
+                                color: black;
+                                background-color: red;
+                            }
+                            
+                            #toppar {
+                                width: 100%;
+                                background-color: white;
+                                padding: 25px;
+                                min-height: 200px;
+                                display: flex;
+                            }
+                            
+                            #imge {
+                                width: 20%;
+                            }
+                            
+                            #text {
+                                width: 80%;
+                            }
+                            
+                            h3 {
+                                color: rgb(6, 136, 6);
+                                font-family: Arial, Helvetica, sans-serif;
+                            }
+                            
+                            @media only screen and (max-width: 1024px) {
+                                #left-web {
+                                    width: 9%;
+                                    background-color: blue;
+                                    float: left;
+                                    min-height: 1000px;
+                                    max-height: 5000px;
+                                }
+                                #right-web {
+                                    width: 9%;
+                                    background-color: blue;
+                                    float: right;
+                                    min-height: 1000px;
+                                    max-height: 5000px;
+                                }
+                                #toppar {
+                                    flex-direction: column-reverse;
+                                }
+                                #imge {
+                                    width: 100%;
+                                }
+                                #text {
+                                    width: 100%;
+                                }
